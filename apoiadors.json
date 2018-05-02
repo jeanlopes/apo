@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5ae7680091d7981ec4806ba0"},"nome":"Fulano 1","email":"fulano1@mail.com"}
+{"_id":{"$oid":"5ae7682491d7981ec4806ba1"},"nome":"Fulano 2","email":"fulano2@mail.com"}
+{"_id":{"$oid":"5ae7683b91d7981ec4806ba2"},"nome":"Fulano 3","email":"fulano3@mail.com"}
+{"_id":{"$oid":"5ae7685191d7981ec4806ba3"},"nome":"Fulano 4","email":"fulano4@mail.com"}
+{"_id":{"$oid":"5ae7686791d7981ec4806ba4"},"nome":"Fulano 5","email":"fulano5@mail.com"}
+{"_id":{"$oid":"5ae7687f91d7981ec4806ba5"},"nome":"Fulano 6","email":"fulano6@mail.com"}
+{"_id":{"$oid":"5ae768b991d7981ec4806ba6"},"nome":"Fulano 7","email":"fulano7@mail.com"}
+{"_id":{"$oid":"5ae768cc91d7981ec4806ba7"},"nome":"Fulano 8","email":"fulano8@mail.com"}
+{"_id":{"$oid":"5ae7696c91d7981ec4806ba8"},"nome":"Fulano 9","email":"fulano9@mail.com"}
+{"_id":{"$oid":"5ae7697e91d7981ec4806ba9"},"nome":"Fulano 10","email":"fulano10@mail.com"}

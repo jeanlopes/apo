@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-4">
+      <h3>Apoiadores</h3>
+      <p><a href="javascript:void(0)" (click)="changeMonth(mesCorrente -1)">&laquo;- Ant</a>   
+        <strong>{{ meses[mesCorrente] }} de {{ anoCorrente }}</strong> 
+        <a href="javascript:void(0)" (click)="changeMonth(mesCorrente + 1)"> Pr&oacute;x -&raquo;</a>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <div class="apoiadores" *ngIf="apoiadoresList">
+        <table class="table">
+          <tbody>          
+            <tr class="apoiadores" *ngFor="let apoiador of apoiadoresList">
+                <td>{{apoiador.nome}}</td>
+                <td>{{apoiador.totalPago}} pago</td>
+                <td>{{apoiador.totalNaoPago}} n&atilde;o pago</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <button class="btn btn-success">
+        <a style="color:black;" routerLink="/campanhas">Campanhas</a>
+      </button>
+    </div>
+  </div>

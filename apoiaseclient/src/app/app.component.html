@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-4">
+    <h3>Campanhas</h3>
+    <p><button class="btn btn-success"><a  (click)="changeMonth(mesCorrente -1)">&laquo;- Ant</a></button>
+      <strong>{{ meses[mesCorrente] }} de {{ anoCorrente }}</strong> 
+      <button class="btn btn-success"><a (click)="changeMonth(mesCorrente + 1)"> Pr&oacute;x -&raquo;</a></button>
+    </p>
+  </div>
+  <div class="col-md-8">
+    <div class="campanhas" *ngIf="campanhaList">
+      <table class="table">
+        <tbody>          
+          <tr class="campanhas" *ngFor="let campanha of campanhaList">
+            <td>{{campanha.nome}}</td>
+              <td>Cobrado: {{campanha.totalApoiosCobrados}}</td>
+              <td>N&atilde;o cobrado: {{campanha.totalApoiosNaoCobrados}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <button class="btn btn-success">
+      <a style="color:black;" routerLink="/apoiadores">Apoiadores</a>
+    </button>
+  </div>
+</div>
